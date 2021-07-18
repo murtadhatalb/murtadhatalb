@@ -1,6 +1,7 @@
 1-my Solve the first question in Kotlin on the codesignal website
 
 fun add(param1: Int, param2: Int): Int {
+    
     return param1+ param2
 }
 
@@ -18,6 +19,7 @@ fun  centuryFromYear(year : Int): Int {
 
 fun checkPalindrome(inputString: String): Boolean =inputString.equals(inputString.reversed())
 
+
 4-The solution to the fourth question in the Kotlin language on the codesignal website
 
 fun adjacentElementsProduct(inputArray: MutableList<Int>): Int =(0..inputArray.size -2).map{
@@ -28,12 +30,14 @@ fun adjacentElementsProduct(inputArray: MutableList<Int>): Int =(0..inputArray.s
 5-The solution to the fifth question in the Kotlin language on the codesignal website
 
 fun shapeArea(n: Int): Int {
+   
     return 2*n*(n-1) +1
   
 }
 
 6-The solution to the sixth question in the Kotlin language on the codesignal website
-fun makeArrayConsecutive2(statues: MutableList<Int>): Int {
+
+    fun makeArrayConsecutive2(statues: MutableList<Int>): Int {
   
   return statues.max()!!-statues.min()!!-statues.size+1
 
@@ -41,7 +45,8 @@ fun makeArrayConsecutive2(statues: MutableList<Int>): Int {
 }
 
 7-The solution to the seventh question in the Kotlin language on the codesignal website
-fun almostIncreasingSequence(sequence: MutableList<Int>): Boolean {
+
+    fun almostIncreasingSequence(sequence: MutableList<Int>): Boolean {
     
     var a=-1
     var b=0
